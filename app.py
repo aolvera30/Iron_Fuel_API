@@ -8,6 +8,8 @@ import os
 
 # Initialize Flask application and CORS
 app = Flask(__name__)
+
+# Allow requests from GitHub Pages frontend
 CORS(app, resources={r"/*": {"origins": "https://aolvera30.github.io"}})
 
 # Configure logging
@@ -71,4 +73,4 @@ def calculate_macros_api():
 
 # Run the app (for local development)
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
