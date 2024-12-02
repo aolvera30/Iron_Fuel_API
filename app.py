@@ -8,7 +8,7 @@ import os
 
 # Initialize Flask application and CORS
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://aolvera30.github.io"}})
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
