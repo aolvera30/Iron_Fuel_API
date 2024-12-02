@@ -1,0 +1,51 @@
+/* macro_overview.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff0000;
+}
+
+.macros {
+    margin: 20px auto;
+}
+
+.tips {
+    margin: 20px auto;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food-chart {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.food-category {
+    text-align: left;
+}
+
+.food-category h3 {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.food-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.food-category ul li {
+    margin: 5px 0;
+}

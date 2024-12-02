@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macros Overview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/macro_overview.css') }}">
+</head>
+<body>
+    <h1>Macros</h1>
+    <div class="macros">
+        <p><strong>Calories:</strong> <span id="calories"></span> kcal</p>
+        <p><strong>Protein:</strong> <span id="protein"></span> g</p>
+        <p><strong>Carbs:</strong> <span id="carbs"></span> g</p>
+        <p><strong>Fats:</strong> <span id="fats"></span> g</p>
+    </div>
+    <h2>Tips</h2>
+    <div class="tips">
+        <ul id="tips">
+            <!-- Tips will be inserted here dynamically if needed -->
+        </ul>
+    </div>
+    <h2>Recommended Foods</h2>
+    <div class="food-chart">
+        <div class="food-category">
+            <h3>Proteins</h3>
+            <ul id="proteins">
+                <!-- Protein items will be added dynamically if needed -->
+            </ul>
+        </div>
+        <div class="food-category">
+            <h3>Complex Carbs</h3>
+            <ul id="complex_carbs">
+                <!-- Complex Carb items will be added dynamically if needed -->
+            </ul>
+        </div>
+        <div class="food-category">
+            <h3>Fats</h3>
+            <ul id="fats">
+                <!-- Fat items will be added dynamically if needed -->
+            </ul>
+        </div>
+        <div class="food-category">
+            <h3>Vegetables</h3>
+            <ul id="vegetables">
+                <!-- Vegetable items will be added dynamically if needed -->
+            </ul>
+        </div>
+        <div class="food-category">
+            <h3>Fruits</h3>
+            <ul id="fruits">
+                <!-- Fruit items will be added dynamically if needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
